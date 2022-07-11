@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     min-height: 100vh;
@@ -17,11 +18,13 @@ h1 {
     color: #FFF;
     margin-bottom: 20px;
 }
+
 .keys {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
 .key {
     width: 80px;
     height: 80px;
@@ -32,7 +35,8 @@ h1 {
     align-items: center;
     font-size: 30px;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius:
+     10px;
 }
 .key.active {
     border: 2px solid #FF0;
@@ -43,6 +47,7 @@ h1 {
     width: 260px;
     margin-top: 20px;
 }
+
 .composer #input {
     width: 100%;
     outline: none;
@@ -50,6 +55,7 @@ h1 {
     padding: 10px 15px;
     border-radius: 10px;
 }
+
 .composer button {
     width: 100%;
     height: 40px;
@@ -61,6 +67,7 @@ h1 {
     cursor: pointer;
     border-radius: 10px;
 }
+
 .composer button:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -71,6 +78,10 @@ footer {
     font-size: 13px;
 }
 
-.a {
-    color: #FFF;
+footer a:link {
+    color:#fff;
+}
+
+footer a:visited {
+    color:#fff;
 }
